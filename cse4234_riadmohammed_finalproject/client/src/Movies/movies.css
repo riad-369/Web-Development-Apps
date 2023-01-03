@@ -1,0 +1,48 @@
+/* */
+section.inner-header {
+}
+header.movie-header-wrapper {
+    margin-top: 12px;
+}
+header.movie-header-wrapper:after {
+    display: flex;
+    content: '';
+    border-bottom: 2px solid #565656;
+    width: 100%;
+    margin-top: 12px;
+    margin-bottom: 1em;
+}
+h1 {
+    margin-left: 16px;
+    color: #D81F26;
+}
+/* */
+.movie-button {
+    float: right;
+    margin-right: 2em;
+    margin-bottom: 1em;
+}
+
+button.movie-register-button {
+    padding: 8px;
+    border-radius: 8px;
+    font-size: 20px;
+    border: 1.5px solid black;
+}
+
+/* */
+section.container-row {
+    display: flex;
+    flex-flow: row;
+}
+/* Setting for section header */
+span.section-header:after {
+    display: flex;
+    content: '';
+    border-bottom: 2px solid #565656;
+    width: 100%;
+    margin-bottom: 2em;
+}
+h2.genre-section {
+    color: white;
+}

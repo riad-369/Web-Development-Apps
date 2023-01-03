@@ -1,0 +1,82 @@
+header.register-header-wrapper {
+    margin-top: 12px;
+}
+header.register-header-wrapper:after {
+    display: flex;
+    content: '';
+    border-bottom: 2px solid #565656;
+    width: 100%;
+    margin-top: 12px;
+}
+h1 {
+    margin-left: 16px;
+    color: #D81F26;
+}
+/* Setting for form page */
+div.form-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 12em;
+}
+/* Setting for main div */
+div.main-wrapper {
+    width: 550px;
+    min-height: 450px;
+    border-radius: 8px;
+    background-color: #000000;
+}
+/* Setting for inner div */
+div.inner-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2.5em;
+}
+/* Setting for form title */
+h2#form-title {
+    color: #ffffff;
+    display: flex;
+    margin-top: 48px;
+    margin-left: 24px;
+}
+/* Setting for form */
+form.form-wrapper {
+    width: 75%;
+}
+/* Setting for input field */
+input.form-input {
+    width: 100%;
+    height: 30px;
+    outline: none;
+    border-radius: 8px;
+    border: 1.4px solid transparent;
+    font-size: 12px;
+    padding-left: 1.5em;
+}
+div.input-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+/* Setting for the label */
+label {
+    width: 45%;
+    font-size: 16px;
+    margin-top: 8px;
+    color: #ffffff;
+}
+/* Setting for the button */
+span#registerB-wrapper {
+    display: flex;
+    margin-top: 2em;
+    margin-left: 4.3em;
+}
+button.register-button {
+    width: 30%;
+    padding: 16px;
+    border-radius: 8px;
+    border: 1.5px solid #6495ed;
+    color: #6495ed;
+    background: #141414;
+}
